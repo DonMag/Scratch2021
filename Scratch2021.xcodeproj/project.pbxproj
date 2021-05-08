@@ -15,7 +15,12 @@
 		FCDA262B2645CD39009EFB75 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FCDA26292645CD39009EFB75 /* LaunchScreen.storyboard */; };
 		FCDA262E2645CD39009EFB75 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FCDA262D2645CD39009EFB75 /* main.m */; };
 		FCDA26382645D035009EFB75 /* ListElement.m in Sources */ = {isa = PBXBuildFile; fileRef = FCDA26372645D035009EFB75 /* ListElement.m */; };
-		FCDA263C2645D08C009EFB75 /* MyListView.m in Sources */ = {isa = PBXBuildFile; fileRef = FCDA263B2645D08C009EFB75 /* MyListView.m */; };
+		FCDA26412646C8CA009EFB75 /* MyListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FCDA26402646C8CA009EFB75 /* MyListViewController.m */; };
+		FCDA26452646CC5E009EFB75 /* MyTopViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FCDA26442646CC5E009EFB75 /* MyTopViewController.m */; };
+		FCDA26492646CE03009EFB75 /* MyBottomViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FCDA26482646CE03009EFB75 /* MyBottomViewController.m */; };
+		FCDA264D2646D37A009EFB75 /* SampleData.m in Sources */ = {isa = PBXBuildFile; fileRef = FCDA264C2646D37A009EFB75 /* SampleData.m */; };
+		FCDA26512646D69B009EFB75 /* MyListRow.m in Sources */ = {isa = PBXBuildFile; fileRef = FCDA26502646D69B009EFB75 /* MyListRow.m */; };
+		FCDA26562646E1CC009EFB75 /* DetailsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FCDA26552646E1CC009EFB75 /* DetailsViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -33,8 +38,18 @@
 		FCDA262D2645CD39009EFB75 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		FCDA26362645D034009EFB75 /* ListElement.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ListElement.h; sourceTree = "<group>"; };
 		FCDA26372645D035009EFB75 /* ListElement.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ListElement.m; sourceTree = "<group>"; };
-		FCDA263A2645D08C009EFB75 /* MyListView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyListView.h; sourceTree = "<group>"; };
-		FCDA263B2645D08C009EFB75 /* MyListView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyListView.m; sourceTree = "<group>"; };
+		FCDA263F2646C8CA009EFB75 /* MyListViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyListViewController.h; sourceTree = "<group>"; };
+		FCDA26402646C8CA009EFB75 /* MyListViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyListViewController.m; sourceTree = "<group>"; };
+		FCDA26432646CC5E009EFB75 /* MyTopViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyTopViewController.h; sourceTree = "<group>"; };
+		FCDA26442646CC5E009EFB75 /* MyTopViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyTopViewController.m; sourceTree = "<group>"; };
+		FCDA26472646CE03009EFB75 /* MyBottomViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyBottomViewController.h; sourceTree = "<group>"; };
+		FCDA26482646CE03009EFB75 /* MyBottomViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyBottomViewController.m; sourceTree = "<group>"; };
+		FCDA264B2646D37A009EFB75 /* SampleData.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SampleData.h; sourceTree = "<group>"; };
+		FCDA264C2646D37A009EFB75 /* SampleData.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SampleData.m; sourceTree = "<group>"; };
+		FCDA264F2646D69B009EFB75 /* MyListRow.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyListRow.h; sourceTree = "<group>"; };
+		FCDA26502646D69B009EFB75 /* MyListRow.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyListRow.m; sourceTree = "<group>"; };
+		FCDA26542646E1CC009EFB75 /* DetailsViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DetailsViewController.h; sourceTree = "<group>"; };
+		FCDA26552646E1CC009EFB75 /* DetailsViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DetailsViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,10 +88,20 @@
 				FCDA261F2645CD37009EFB75 /* SceneDelegate.m */,
 				FCDA26212645CD37009EFB75 /* ViewController.h */,
 				FCDA26222645CD37009EFB75 /* ViewController.m */,
-				FCDA263A2645D08C009EFB75 /* MyListView.h */,
-				FCDA263B2645D08C009EFB75 /* MyListView.m */,
+				FCDA26542646E1CC009EFB75 /* DetailsViewController.h */,
+				FCDA26552646E1CC009EFB75 /* DetailsViewController.m */,
+				FCDA26432646CC5E009EFB75 /* MyTopViewController.h */,
+				FCDA26442646CC5E009EFB75 /* MyTopViewController.m */,
+				FCDA26472646CE03009EFB75 /* MyBottomViewController.h */,
+				FCDA26482646CE03009EFB75 /* MyBottomViewController.m */,
+				FCDA263F2646C8CA009EFB75 /* MyListViewController.h */,
+				FCDA26402646C8CA009EFB75 /* MyListViewController.m */,
+				FCDA264F2646D69B009EFB75 /* MyListRow.h */,
+				FCDA26502646D69B009EFB75 /* MyListRow.m */,
 				FCDA26362645D034009EFB75 /* ListElement.h */,
 				FCDA26372645D035009EFB75 /* ListElement.m */,
+				FCDA264B2646D37A009EFB75 /* SampleData.h */,
+				FCDA264C2646D37A009EFB75 /* SampleData.m */,
 				FCDA26242645CD37009EFB75 /* Main.storyboard */,
 				FCDA26272645CD39009EFB75 /* Assets.xcassets */,
 				FCDA26292645CD39009EFB75 /* LaunchScreen.storyboard */,
@@ -155,10 +180,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FCDA26452646CC5E009EFB75 /* MyTopViewController.m in Sources */,
+				FCDA26492646CE03009EFB75 /* MyBottomViewController.m in Sources */,
+				FCDA26562646E1CC009EFB75 /* DetailsViewController.m in Sources */,
 				FCDA26232645CD37009EFB75 /* ViewController.m in Sources */,
 				FCDA261D2645CD37009EFB75 /* AppDelegate.m in Sources */,
-				FCDA263C2645D08C009EFB75 /* MyListView.m in Sources */,
+				FCDA26512646D69B009EFB75 /* MyListRow.m in Sources */,
+				FCDA264D2646D37A009EFB75 /* SampleData.m in Sources */,
 				FCDA262E2645CD39009EFB75 /* main.m in Sources */,
+				FCDA26412646C8CA009EFB75 /* MyListViewController.m in Sources */,
 				FCDA26382645D035009EFB75 /* ListElement.m in Sources */,
 				FCDA26202645CD37009EFB75 /* SceneDelegate.m in Sources */,
 			);
